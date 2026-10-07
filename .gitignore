@@ -8,6 +8,11 @@ bin/
 *.war
 *.ear
 
+# 构建包装器（wrapper）的 jar 需要随源码一起提交
+!gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
 # 构建工具
 .gradle/
 .mvn/wrapper/maven-wrapper.jar
